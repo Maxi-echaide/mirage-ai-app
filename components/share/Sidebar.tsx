@@ -1,7 +1,7 @@
 'use client';
 
 import { navLinks } from '@/constants';
-import { SignIn, SignedIn, SignedOut, UserButton } from '@clerk/nextjs';
+import { SignedIn, SignedOut, UserButton } from '@clerk/nextjs';
 import Image from 'next/image';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
@@ -16,7 +16,7 @@ const Sidebar = () => {
       <div className='flex size-full flex-col gap-4'>
         <Link href='/' className='sidebar-logo'>
           <Image
-            src='/assets/mirage-logo-zip-file/png/logo-black.png'
+            src='/assets/images/logo-text.svg'
             alt='logo'
             width={180}
             height={28}
